@@ -1,0 +1,30 @@
+{
+    "name": "pixi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.18.7",
+        "event-stream": "^3.3.4",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-cache": "^0.4.5",
+        "gulp-clean": "^0.3.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^3.1.1",
+        "gulp-jshint": "^2.0.4",
+        "gulp-livereload": "^3.8.1",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-size": "^2.1.0",
+        "gulp-sourcemaps": "^2.4.1",
+        "gulp-uglify": "^2.0.1",
+        "jshint": "^2.9.4"
+    }
+}

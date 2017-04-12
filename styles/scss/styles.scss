@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+  position: relative;
+  display: block;
+  max-width: 120px;
+  margin: 40px auto 40px;
+
+  .badge {
+    position: absolute;
+    top: -3px;
+    right: 19px;
+    font-size: 8px;
+  }
+}
+
+.view {
+  display: block;
+  max-width: 810px;
+  height: 610px;
+  margin: 0 auto;
+}
+
+.top__items {
+  max-width: 800px;
+  margin: 0 auto 10px;
+  
+  .shapes__value, .shapes__area {
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    margin: 0 -2px;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 24px;
+    color: aquamarine;
+    position: relative;
+
+    span {
+      position: absolute;
+      top: -32px;
+      font-size: 15px;
+      color: #000;
+      line-height: 13px;
+      height: 20px;
+      display: block;
+    }
+  }
+}
+
+
+.bottom__items {
+  max-width: 800px;
+  margin: 15px auto;
+
+  .button__value {
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    vertical-align: middle;
+    margin-left: 20px;
+
+  }
+
+  .button__title {
+    margin-right: 30px;
+  }
+
+  .btn-primary {
+    height: 40px;
+    width: 60px;
+    margin: 0 -2px;
+    font-size: 24px;
+    vertical-align: middle;
+
+    &.left {
+      border-bottom-left-radius: 12px;
+      border-top-left-radius: 12px;
+    }
+
+    &.right {
+      border-bottom-right-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+  }
+}
+
+.shapes__buttons, .gravity__buttons {
+  display: inline-block;
+  position: relative;
+}

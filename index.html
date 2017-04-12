@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.3/pixi.min.js"></script>
+    <link rel="stylesheet" href="./styles/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="./styles/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./styles/css/styles.min.css"/>
+</head>
+<body>
+<header>
+    <h1>Pixi <span class="badge">APP</span></h1>
+</header>
+<main class="app">
+    <div class="top__items">
+        <div class="shapes__value"><strong>0</strong><span>Number of current shapes</span></div>
+        <div class="shapes__area"><strong>0</strong><span>Surface area occupied by shapes</span></div>
+    </div>
+    <article class="view thumbnail"></article>
+    <div class="bottom__items">
+        <div class="shapes__buttons">
+            <button class="btn-primary left">-</button>
+            <button class="btn-primary right">+</button>
+          <span class="button__value badge">3</span><span class="button__title"> - Numbers of shapes per sec</span>
+        </div>
+        <div class="gravity__buttons">
+            <button class="btn-primary left">-</button>
+            <button class="btn-primary right">+</button>
+          <span class="button__value badge">5</span><span class="button__title"> - Gravity value</span>
+        </div>
+    </div>
+</main>
+<script src="./js/min/shape.min.js"></script>
+<script src="./js/min/main.min.js"></script>
+<script src="./js/min/controller.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
